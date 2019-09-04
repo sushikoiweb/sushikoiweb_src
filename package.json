@@ -1,0 +1,30 @@
+{
+  "name": "sushi-koi-ny-04",
+  "version": "4.0.0",
+  "description": "Flat file version of Koi web site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "R P Hunt",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "pump": "^3.0.0"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushikoiweb/sushikoiweb_src.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sushikoiweb/sushikoiweb_src/issues"
+  },
+  "homepage": "https://github.com/sushikoiweb/sushikoiweb_src#readme"
+}
