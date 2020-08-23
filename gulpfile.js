@@ -63,22 +63,43 @@ const compresscss = () => {
 };
 
 /*
-Minify JS from /src_js and place in /js
+  Minify the JS file
 */
 const compressjs = () => {
   return pump([
-       src('./src_js/**/*.js'),
-       uglify(),
-       dest('./js')
-      ]
-    );
+    src('./wp-content/themes/wendyrosoff-02/std_js/**/*.js'),
+    uglify(),
+    dest('./wp-content/themes/wendyrosoff-02/js')
+  ])
 };
 
+/*
+  Create or update distribution folder.
+  'base' sets file folder level to project root.
+*/
+const distfiles = () => {
+    return src([
+      'index.html',  
+      './about/*.html', 
+      './css/*.css', 
+      './directions-and-delivery/*.html', 
+      './disclaimer/*.html', 
+      './images/*.jpg', 
+      './js/*.js',
+      './menu/*.html', 
+      './menu_images/*.jpg', 
+      './page_images/*.svg', 
+      './page_images/*.png', 
+      './page_images/*.jpg' 
+      ], 
+      {base: './'})
+    .pipe(dest('./dist'));
+}
 
 /*
 Transpile the SCSS
 Minify the CSS
 Minify the JS
 */
-exports.all = series(transpilescss, transpilejs, compresscss, compressjs);
+exports.all = series(transpilescss, transpilejs, compresscss, compressjs, distfiles);
 
