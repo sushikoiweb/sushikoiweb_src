@@ -333,7 +333,7 @@ footer {
 
   figure {
     margin-bottom: 2rem;
-    width: 100%;
+    width: auto;
     float: left;
   }
 
@@ -617,7 +617,7 @@ footer {
     }
 
     figure {
-      width: 33%;
+      width: 50%;
     }
 
   }
@@ -750,7 +750,7 @@ footer {
 
         div {
           display: grid;
-          grid-template-columns: repeat(3, 1fr);
+          grid-template-columns: repeat(2, 1fr);
           grid-template-rows: auto;
         }
 
