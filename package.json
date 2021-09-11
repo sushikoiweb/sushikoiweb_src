@@ -9,10 +9,10 @@
   "author": "R P Hunt",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.11.6",
+    "@babel/core": "^7.15.5",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^4.1.1",
     "gulp-uglify": "^3.0.2",
     "gulp-uglifycss": "^1.1.0",
     "pump": "^3.0.0"
