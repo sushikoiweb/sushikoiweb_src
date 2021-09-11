@@ -21,7 +21,7 @@ Can watch SCSS for changes and transpile
 
 /* requires */
 const { src, dest, series, parallel, watch } = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const uglify = require('gulp-uglify');
 const uglifycss = require('gulp-uglifycss');
 const pump = require('pump');
