@@ -210,12 +210,9 @@ footer {
   max-width: 1000px;
   margin: auto;
   overflow: auto; }
-  #specials h1 {
-    color: #E7C596; }
   #specials figure {
-    margin-bottom: 2rem;
-    width: auto;
-    float: left; }
+    margin: auto auto 2rem auto;
+    width: auto; }
   #specials img {
     width: 80%;
     padding: 2rem 0; }
@@ -228,6 +225,8 @@ footer {
     color: #E7C596; }
   #specials .note {
     font-size: .8em; }
+  #specials h2 {
+    color: #ffffff; }
   #specials h4 {
     color: #F3f7dE; }
 
@@ -491,11 +490,11 @@ footer ul {
       display: grid; }
     #specials div {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       grid-template-rows: auto; }
     #specials figure {
-      margin-bottom: 2rem;
-      width: auto; } }
+      margin: auto auto 2rem auto;
+      width: 50%; } }
   /*media end */ }
 
 /*supports end */

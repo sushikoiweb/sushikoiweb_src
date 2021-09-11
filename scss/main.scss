@@ -327,14 +327,9 @@ footer {
   margin: auto;
   overflow: auto;
 
-  h1 {
-    color: $clrTan;
-  }
-
   figure {
-    margin-bottom: 2rem;
+    margin: auto auto 2rem auto;
     width: auto;
-    float: left;
   }
 
   img {
@@ -356,6 +351,10 @@ footer {
 
   .note {
     font-size: .8em;
+  }
+
+  h2 {
+    color: $clrWhite;
   }
 
   h4 {
@@ -750,13 +749,13 @@ footer {
 
         div {
           display: grid;
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: repeat(1, 1fr);
           grid-template-rows: auto;
         }
 
         figure {
-          margin-bottom: 2rem;
-          width: auto;
+          margin: auto auto 2rem auto;
+          width: 50%;
         }
       }
   } /*media end */  
