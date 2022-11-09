@@ -67,9 +67,9 @@ const compresscss = () => {
 */
 const compressjs = () => {
   return pump([
-    src('./wp-content/themes/wendyrosoff-02/std_js/**/*.js'),
+    src('./src_js/**/*.js'),
     uglify(),
-    dest('./wp-content/themes/wendyrosoff-02/js')
+    dest('./dist/js')
   ])
 };
 
@@ -84,9 +84,9 @@ const distfiles = () => {
       './css/*.css', 
       './directions-and-delivery/*.html', 
       './disclaimer/*.html', 
+      './menu/*.html', 
       './images/*.jpg', 
       './js/*.js',
-      './menu/*.html', 
       './menu_images/*.jpg', 
       './page_images/*.svg', 
       './page_images/*.png', 
