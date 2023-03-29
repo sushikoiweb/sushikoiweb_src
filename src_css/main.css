@@ -259,8 +259,7 @@ footer ul a {
   padding: 2rem 0;
 }
 #specials .desktop {
-  display: none;
-  /* or inline */
+  display: none; /* or inline */
 }
 #specials .desktop.mobile {
   display: inline;
@@ -493,7 +492,6 @@ footer ul {
   header #hamburger_menu {
     display: none;
   }
-
   /*
   Header now not fixed positioned, so has layout 
   */
@@ -504,25 +502,21 @@ footer ul {
     text-align: right;
     padding: 0 16px;
   }
-
   /*
   Show contact info in banner
   */
   #contact {
     display: block;
   }
-
   /*
   Hide phone button and mobile version of contact.
   */
   #phone_button {
     display: none;
   }
-
   address.mobile {
     display: none;
   }
-
   #specials {
     margin: 0;
   }
@@ -535,55 +529,44 @@ footer ul {
   #specials figure {
     width: 50%;
   }
-
   #food_menu {
     margin: 0;
   }
-}
-/*media 768 end */
+} /*media 768 end */
 @media (min-width: 1000px) {
   #specials {
     margin: 2rem auto;
   }
-
   header #main_menu {
     padding: 10px 0;
   }
-
   #banner div {
     padding: 0;
   }
-
   #contact {
     display: block;
     padding: 1rem 0;
     margin: 0 auto;
   }
-
   #food_menu {
     margin: 2rem auto;
   }
-
   #about_text {
     padding: 1rem 0;
   }
-
   #disclaimers_text {
     padding: 1rem 0;
   }
-
   #directions_text {
     padding: 1rem 0;
   }
-
   header #logo {
     padding: 0;
   }
   header #logo h1 {
     font-size: 2.2em;
   }
-}
-/*media minwidth end */
+} /*media minwidth end */
 /* styles for grid support */
 @supports (display: grid) {
   #contact {
@@ -596,7 +579,6 @@ footer ul {
     float: none;
     width: auto;
   }
-
   #food_menu #food_menu_inner section ul li {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -618,13 +600,11 @@ footer ul {
     width: auto;
     grid-area: note;
   }
-
   /*food menu end */
   @media (min-width: 768px) {
     #contact {
       display: grid;
     }
-
     #specials div {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -634,10 +614,8 @@ footer ul {
       margin: auto auto 2rem auto;
       width: 50%;
     }
-  }
-  /*media end */
-}
-/*supports end */
+  } /*media end */
+} /*supports end */
 /* styles for flex support */
 @supports (display: flex) {
   header {
@@ -649,11 +627,9 @@ footer ul {
   header #logo h1 {
     flex: 2;
   }
-
   footer {
     display: flex;
   }
-
   @media (min-width: 768px) {
     header {
       /* logo */
@@ -685,7 +661,5 @@ footer ul {
       display: flex;
       flex-direction: row;
     }
-  }
-  /* media end */
-}
-/*supports end */
+  } /* media end */
+} /*supports end */
