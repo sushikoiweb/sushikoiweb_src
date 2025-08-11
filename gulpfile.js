@@ -3,6 +3,7 @@ Gulp 4 build flow
 NPM Setup:
 npm install gulp --global
 npm install --save-dev gulp
+npm install --save-dev sass
 npm install --save-dev gulp-sass
 npm install --save-dev gulp-uglify
 npm install --save-dev gulp-uglifycss
