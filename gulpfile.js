@@ -86,12 +86,12 @@ const distfiles = () => {
       './directions-and-delivery/*.html', 
       './disclaimer/*.html', 
       './menu/*.html', 
-      './images/*.jpg', 
       './js/*.js',
+      /*'./images/*.jpg', 
       './menu_images/*.jpg', 
       './page_images/*.svg', 
       './page_images/*.png', 
-      './page_images/*.jpg' 
+      './page_images/*.jpg' */
       ], 
       {base: './'})
     .pipe(dest('./dist'));

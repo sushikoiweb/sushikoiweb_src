@@ -335,6 +335,12 @@ address.mobile {
 #food_menu #food_menu_inner section .section_description {
   font-style: italic;
 }
+#food_menu #food_menu_inner section h3.combo_title {
+  background-color: #473930;
+  padding: 0.5rem;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+}
 #food_menu #food_menu_inner section ul li {
   padding: 0.5rem 0;
   overflow: hidden;

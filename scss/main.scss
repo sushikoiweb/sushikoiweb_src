@@ -431,6 +431,13 @@ address {
         font-style:italic;
       }
 
+      h3.combo_title {
+        background-color: $clrBgDark;
+        padding: .5rem;
+        margin: 2rem 0 1rem 0;
+        font-size: 1.5rem;
+      }
+
       ul li {
         padding: .5rem 0;
         overflow: hidden;
